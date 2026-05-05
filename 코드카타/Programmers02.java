@@ -1,5 +1,5 @@
 class Programmers02 {
-    public int programmers02(int num1, int num2) {
+    public int multiple(int num1, int num2) {
         int answer = 0;
         answer = num1 * num2;
         return answer;

@@ -1,5 +1,5 @@
 public class Programmers04 {
-    public int solution(int age) {
+    public int birthYear(int age) {
         int answer = 2022 - age + 1;
         return answer;
     }
@@ -7,7 +7,7 @@ public class Programmers04 {
     public static void main(String[] args) {
         Programmers04 sol = new Programmers04();
 
-        System.out.println(sol.solution(40));
-        System.out.println(sol.solution(23));
+        System.out.println(sol.birthYear(40));
+        System.out.println(sol.birthYear(23));
     }
 }

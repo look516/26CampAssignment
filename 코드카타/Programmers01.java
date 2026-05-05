@@ -1,5 +1,5 @@
 class Programmers01 {
-    public int programmers01(int num1, int num2) {
+    public int subtract(int num1, int num2) {
         int answer = 0;
         answer = num1 - num2;
         return answer;
