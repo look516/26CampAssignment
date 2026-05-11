@@ -6,4 +6,12 @@ public class Programmers11 {
             }
             return answer;
     }
+
+    public static void main(String[] args) {
+        Programmers11 p = new Programmers11();
+
+        System.out.println(p.Programmers11(4));
+        System.out.println(p.Programmers11(5));
+        System.out.println(p.Programmers11(0));
+    }
 }
